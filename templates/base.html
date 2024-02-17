@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <title> {% block title %}{{ title }}{% endblock %}</title>
+    {% block head %}{% endblock %}
+  </head>  
+  <body>
+    <div>
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>
+

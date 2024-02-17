@@ -10,7 +10,7 @@ use axum::{
 #[template(path = "index.html")]
 struct IndexTemplate;
 
-pub fn index() -> impl IntoResponse {
+pub async fn index() -> impl IntoResponse {
     let template = IndexTemplate {};
     HtmlTemplate(template)
 }
