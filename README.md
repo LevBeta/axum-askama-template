@@ -1,4 +1,4 @@
-# Axum Askama Template
+# Axum Askama Template with HTMX
 
 Very simple and fast template to use axum and askama
 
